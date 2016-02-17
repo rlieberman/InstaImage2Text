@@ -124,15 +124,12 @@ function imageToText(imgElt, imgURL, div) {
 
         }
 
-        // console.log(posTagging); //print the object with tags and parts of speech
-
-
         //hide the image, create the grey div and add the desription
         imgElt.hide();
         console.log("image is hidden");
 
-        div.size(imgElt.width, imgElt.height);
-        div.style('background-color', '#e6e6e6');
+        // div.size(imgElt.width, imgElt.height);
+        div.style('background-color', '#e6e6e6'); //style the div
 
         var imgDescription; //empty variable for the image description
 
